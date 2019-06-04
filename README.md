@@ -59,6 +59,30 @@ pom.xml:
     
     
 3. 启动kafka服务器
+
+执行：
+
+        sh bin/kafka-server-start.sh config/server.properties
+         
+控制台打出：
+         
+         [2019-06-04 15:07:19,041] INFO Awaiting socket connections on s0.0.0.0:9092. (kafka.network.Acceptor)
+         [2019-06-04 15:07:19,068] INFO [SocketServer brokerId=0] Created data-plane acceptor and processors for endpoint : EndPoint(null,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.network.SocketServer)
+         
+代表启动成功!!
+         
+4. 写一个生产者test，往kafka服务里写数据
+         
+看代码。。。。
+         
+         
+5. 写一个消费者服务，从kafka服务里获取生产都的数据，并对数据进行消费
+         
+看代码
+         
+
+         
+         
 		
 		
 
